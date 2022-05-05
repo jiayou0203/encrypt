@@ -7,8 +7,8 @@ def  create_md5(pwd,salt):
     return md5_obj.hexdigest()
 
 
-pwd="abcd@1234"
-salt="TRANSSNET_SALT_MD5_KEY"
+pwd=" " 明文密码
+salt=" "  盐值
 md5=create_md5(pwd,salt)
 
 
